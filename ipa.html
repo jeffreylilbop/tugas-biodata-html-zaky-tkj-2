@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi IPA - Metamorfosis</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+            background: #f1f8f4;
+            color: #26352d;
+        }
+
+        header {
+            background: linear-gradient(135deg, #198754, #20c997);
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #198754;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0f5132;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+        }
+
+        h2 {
+            color: #198754;
+            margin-bottom: 18px;
+            border-left: 5px solid #20c997;
+            padding-left: 12px;
+        }
+
+        h3 {
+            color: #198754;
+            margin-top: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 10px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #e8f7ef;
+            border-left: 5px solid #198754;
+            padding: 18px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .stages {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .stage {
+            background: #f0faf5;
+            border: 2px solid #b7e4c7;
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .stage .number {
+            width: 40px;
+            height: 40px;
+            background: #198754;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 12px;
+            font-weight: bold;
+        }
+
+        .stage h4 {
+            color: #198754;
+            margin-bottom: 8px;
+        }
+
+        .comparison {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .comparison th,
+        .comparison td {
+            border: 1px solid #cde5d6;
+            padding: 13px;
+            text-align: left;
+        }
+
+        .comparison th {
+            background: #198754;
+            color: white;
+        }
+
+        .comparison tr:nth-child(even) {
+            background: #f5fbf7;
+        }
+
+        .kesimpulan {
+            background: linear-gradient(135deg, #198754, #20c997);
+            color: white;
+        }
+
+        .kesimpulan h2 {
+            color: white;
+            border-left-color: white;
+        }
+
+        footer {
+            background: #0f5132;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 7px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 22px;
+            }
+
+            .stages {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .comparison {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .stages {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ilmu Pengetahuan Alam</h1>
+    <p>Materi Pembelajaran SMK Kelas XI — Metamorfosis</p>
+</header>
+
+<nav>
+    <a href="#pengertian">Pengertian</a>
+    <a href="#jenis">Jenis</a>
+    <a href="#contoh">Contoh</a>
+    <a href="#perbedaan">Perbedaan</a>
+    <a href="#kesimpulan">Kesimpulan</a>
+</nav>
+
+<main>
+
+    <section id="pengertian">
+        <h2>1. Pengertian Metamorfosis</h2>
+
+        <p>
+            Metamorfosis adalah proses perubahan bentuk dan struktur tubuh
+            hewan selama pertumbuhan dan perkembangannya menuju bentuk dewasa.
+            Perubahan tersebut terjadi secara bertahap dan merupakan bagian
+            dari siklus hidup hewan tertentu.
+        </p>
+
+        <p>
+            Metamorfosis banyak ditemukan pada kelompok serangga, tetapi
+            beberapa hewan lain juga mengalami perubahan bentuk selama
+            pertumbuhannya.
+        </p>
+
+        <div class="highlight">
+            <strong>Inti materi:</strong>
+            Metamorfosis merupakan perubahan bentuk tubuh yang terjadi selama
+            perkembangan hewan dari tahap awal kehidupan hingga menjadi hewan
+            dewasa.
+        </div>
+
+        <h3>Tujuan dan Fungsi Metamorfosis</h3>
+
+        <p>
+            Perubahan bentuk selama metamorfosis membantu hewan menyesuaikan
+            diri dengan kebutuhan hidup pada setiap tahap perkembangannya.
+            Tahap muda dan tahap dewasa dapat memiliki bentuk tubuh, makanan,
+            serta habitat yang berbeda.
+        </p>
+    </section>
+
+
+    <section id="jenis">
+        <h2>2. Jenis-Jenis Metamorfosis</h2>
+
+        <h3>A. Metamorfosis Sempurna</h3>
+
+        <p>
+            Metamorfosis sempurna disebut juga holometabola. Pada metamorfosis
+            ini, hewan mengalami empat tahap utama, yaitu telur, larva,
+            pupa, dan imago atau hewan dewasa.
+        </p>
+
+        <div class="stages">
+            <div class="stage">
+                <div class="number">1</div>
+                <h4>Telur</h4>
+                <p>
+                    Tahap awal perkembangan sebelum menetas menjadi larva.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">2</div>
+                <h4>Larva</h4>
+                <p>
+                    Tahap muda yang biasanya aktif makan dan tumbuh.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">3</div>
+                <h4>Pupa</h4>
+                <p>
+                    Tahap perubahan besar menuju bentuk dewasa.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">4</div>
+                <h4>Imago</h4>
+                <p>
+                    Tahap dewasa yang memiliki bentuk berbeda dari larva.
+                </p>
+            </div>
+        </div>
+
+        <p>
+            Contoh hewan yang mengalami metamorfosis sempurna antara lain
+            kupu-kupu, nyamuk, lalat, dan kumbang.
+        </p>
+
+
+        <h3>B. Metamorfosis Tidak Sempurna</h3>
+
+        <p>
+            Metamorfosis tidak sempurna disebut juga hemimetabola. Hewan yang
+            mengalami metamorfosis ini tidak memiliki tahap pupa.
+            Tahap perkembangannya secara umum terdiri atas telur, nimfa,
+            dan imago.
+        </p>
+
+        <div class="stages">
+            <div class="stage">
+                <div class="number">1</div>
+                <h4>Telur</h4>
+                <p>
+                    Tahap awal kehidupan sebelum menetas.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">2</div>
+                <h4>Nimfa</h4>
+                <p>
+                    Bentuk muda yang menyerupai hewan dewasa.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">3</div>
+                <h4>Imago</h4>
+                <p>
+                    Bentuk dewasa yang telah berkembang sempurna.
+                </p>
+            </div>
+
+            <div class="stage">
+                <div class="number">—</div>
+                <h4>Pupa</h4>
+                <p>
+                    Tidak terdapat tahap pupa.
+                </p>
+            </div>
+        </div>
+
+        <p>
+            Contoh hewan yang mengalami metamorfosis tidak sempurna antara lain
+            belalang, kecoak, dan capung.
+        </p>
+    </section>
+
+
+    <section id="contoh">
+        <h2>3. Contoh Metamorfosis pada Hewan</h2>
+
+        <h3>A. Metamorfosis Kupu-Kupu</h3>
+
+        <p>
+            Kupu-kupu mengalami metamorfosis sempurna. Siklus hidupnya dimulai
+            dari telur yang kemudian menetas menjadi larva atau ulat.
+            Larva tumbuh dengan memakan makanan dalam jumlah cukup banyak.
+        </p>
+
+        <p>
+            Setelah pertumbuhan larva selesai, ulat memasuki tahap pupa atau
+            kepompong. Pada tahap ini terjadi perubahan struktur tubuh hingga
+            akhirnya muncul kupu-kupu dewasa.
+        </p>
+
+        <p>
+            Urutan metamorfosis kupu-kupu adalah:
+        </p>
+
+        <div class="highlight">
+            <strong>Telur → Larva (ulat) → Pupa (kepompong) → Imago (kupu-kupu dewasa)</strong>
+        </div>
+
+
+        <h3>B. Metamorfosis Belalang</h3>
+
+        <p>
+            Belalang mengalami metamorfosis tidak sempurna. Setelah menetas
+            dari telur, belalang muda disebut nimfa. Nimfa memiliki bentuk
+            yang menyerupai belalang dewasa, tetapi ukurannya lebih kecil
+            dan belum memiliki organ reproduksi yang berkembang sempurna.
+        </p>
+
+        <p>
+            Nimfa mengalami beberapa kali pergantian kulit hingga tumbuh
+            menjadi belalang dewasa atau imago.
+        </p>
+
+        <div class="highlight">
+            <strong>Telur → Nimfa → Imago (belalang dewasa)</strong>
+        </div>
+
+
+        <h3>C. Metamorfosis Nyamuk</h3>
+
+        <p>
+            Nyamuk juga mengalami metamorfosis sempurna. Siklus hidup nyamuk
+            dimulai dari telur yang biasanya diletakkan di tempat yang
+            memiliki air. Telur kemudian berkembang menjadi larva atau jentik.
+        </p>
+
+        <p>
+            Larva berkembang menjadi pupa. Setelah melalui tahap pupa,
+            nyamuk dewasa keluar dan menjalani kehidupan sebagai imago.
+        </p>
+
+        <div class="highlight">
+            <strong>Telur → Larva (jentik-jentik) → Pupa → Imago (nyamuk dewasa)</strong>
+        </div>
+    </section>
+
+
+    <section id="perbedaan">
+        <h2>4. Perbedaan Metamorfosis Sempurna dan Tidak Sempurna</h2>
+
+        <table class="comparison">
+            <tr>
+                <th>Aspek</th>
+                <th>Metamorfosis Sempurna</th>
+                <th>Metamorfosis Tidak Sempurna</th>
+            </tr>
+
+            <tr>
+                <td>Tahapan</td>
+                <td>Telur → Larva → Pupa → Imago</td>
+                <td>Telur → Nimfa → Imago</td>
+            </tr>
+
+            <tr>
+                <td>Tahap pupa</td>
+                <td>Ada</td>
+                <td>Tidak ada</td>
+            </tr>
+
+            <tr>
+                <td>Bentuk hewan muda</td>
+                <td>Berbeda jauh dari hewan dewasa</td>
+                <td>Mirip dengan hewan dewasa</td>
+            </tr>
+
+            <tr>
+                <td>Contoh</td>
+                <td>Kupu-kupu, nyamuk, lalat, kumbang</td>
+                <td>Belalang, kecoak, capung</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section>
+        <h2>5. Metamorfosis dan Kelangsungan Hidup</h2>
+
+        <p>
+            Metamorfosis memiliki peranan penting dalam kehidupan hewan.
+            Perbedaan bentuk dan kebiasaan hidup pada setiap tahap dapat
+            mengurangi persaingan antara hewan muda dan hewan dewasa dalam
+            memperoleh makanan maupun tempat hidup.
+        </p>
+
+        <p>
+            Sebagai contoh, larva kupu-kupu berupa ulat memakan daun,
+            sedangkan kupu-kupu dewasa umumnya memperoleh makanan berupa
+            nektar. Perbedaan tersebut membuat setiap tahap kehidupan memiliki
+            kebutuhan yang berbeda.
+        </p>
+
+        <p>
+            Dengan demikian, metamorfosis merupakan salah satu bentuk
+            adaptasi perkembangan yang membantu hewan menjalani siklus
+            hidupnya.
+        </p>
+    </section>
+
+
+    <section id="kesimpulan" class="kesimpulan">
+        <h2>Kesimpulan</h2>
+
+        <p>
+            Metamorfosis adalah proses perubahan bentuk tubuh hewan selama
+            pertumbuhan dan perkembangan menuju bentuk dewasa.
+        </p>
+
+        <p>
+            Metamorfosis dibedakan menjadi dua jenis utama, yaitu metamorfosis
+            sempurna dan metamorfosis tidak sempurna. Metamorfosis sempurna
+            memiliki tahap telur, larva, pupa, dan imago. Sementara itu,
+            metamorfosis tidak sempurna memiliki tahap telur, nimfa, dan imago
+            tanpa melalui tahap pupa.
+        </p>
+
+        <p>
+            Contoh metamorfosis sempurna adalah kupu-kupu dan nyamuk,
+            sedangkan contoh metamorfosis tidak sempurna adalah belalang,
+            kecoak, dan capung.
+        </p>
+
+        <p>
+            Metamorfosis membantu hewan menjalani kehidupan pada setiap tahap
+            perkembangan dengan kebutuhan dan karakteristik yang berbeda.
+            Proses ini merupakan bagian penting dari siklus hidup dan
+            kelangsungan hidup berbagai jenis hewan.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Materi Ilmu Pengetahuan Alam</p>
+    <p>SMK Kelas XI — Metamorfosis</p>
+</footer>
+
+</body>
+</html>
